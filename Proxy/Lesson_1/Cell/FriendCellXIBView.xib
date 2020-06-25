@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16096"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="FriendsCellHeader" customModule="VK_clone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="77"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zVm-BT-vpa">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="77"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="0.098753210616438353" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="zVm-BT-vpa" secondAttribute="trailing" id="2qR-nb-S0l"/>
+                <constraint firstAttribute="bottom" secondItem="zVm-BT-vpa" secondAttribute="bottom" id="4Kp-jX-NRW"/>
+                <constraint firstItem="zVm-BT-vpa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Mae-Gy-WPG"/>
+                <constraint firstItem="zVm-BT-vpa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="evR-Sg-jZ8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="137.68115942028987" y="4.3526785714285712"/>
+        </view>
+    </objects>
+</document>
